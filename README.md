@@ -1,2 +1,2 @@
 # vanakam-java
-Simple java course
+Simple java scenaio based Java OOPS concept course.
