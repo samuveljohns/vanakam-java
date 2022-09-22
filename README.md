@@ -1,2 +1,2 @@
 # vanakam-java
-Simple java scenaio based Java OOPS concept course.
+Object oriented thinking for ATM machine usecase.
