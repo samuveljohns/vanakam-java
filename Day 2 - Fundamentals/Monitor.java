@@ -1,7 +1,7 @@
 public class Monitor {
     // Variable is a property or characteristics of the object
-    int size ;
-    int prize;
+     int size ; // Access specofier or access modifier
+    private int prize;
     static String bodyType= "Plastic";
     String brandName;
     String resolution;
@@ -11,15 +11,19 @@ public class Monitor {
         brandName=brand;
         resolution=resolString;
     }
+    public int getPrice(){
+        return prize;
+    }
+
   
     // Purpose of the monitor defined in the form method
-    void displayConnectedLaptop(){
-        int a = 5;
+    void displayConnectedLaptop(int a){
         System.out.println("Display connected devices");
     }
     public static void main(String args[]){
         Monitor m1 = new Monitor(13, 6000, "Dell","1300");
         System.out.println(m1.size);
+        m1.displayConnectedLaptop(5);
         Monitor m2 = new Monitor(15, 9000, "LG","1600");
         System.out.println(m2.size);
         System.out.println("build type"+Monitor.bodyType);
